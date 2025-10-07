@@ -1,0 +1,53 @@
+############################################
+# GITIGNORE - Projeto Java JSP (Eclipse)
+# Estrutura: src/, webapp/, WEB-INF/
+############################################
+
+# === Pastas de build e compilação ===
+/build/
+/bin/
+/out/
+/dist/
+/deploy/
+/tmp/
+
+# === Eclipse ===
+.classpath
+.project
+.settings/
+
+# === IntelliJ / VS Code (caso use às vezes) ===
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# === Logs, cache e temporários ===
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+*.class
+
+# === Arquivos de sistema (Windows/macOS) ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Configurações locais e credenciais ===
+*.env
+*.properties
+
+# Hibernate config (geralmente contém senha de banco)
+hibernate.cfg.xml
+
+# === Bibliotecas manuais ===
+lib/
+*.jar
+
+# === Servidores locais (Tomcat, GlassFish, etc.) ===
+logs/
+work/
+temp/
